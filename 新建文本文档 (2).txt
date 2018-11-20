@@ -1,0 +1,31 @@
+000041
+202001
+460001
+040008
+360007
+
+版本信息 
+
+2015.1.4
+全屏界面 this.requestWindowFeature(Window.FEATURE_NO_TITLE)
+统计界面滑动 GestureDetector 
+统计信息 Activity的四种launchMode、读写文件
+重置统计信息
+
+2015.1.5
+暂停功能 onDoubleTap、Chronometer、Activity生命周期
+重置题目
+隐藏栏（部分）
+
+2015.1.6
+重置题目（重置本题）
+音效 SoundPool
+自定义控件
+
+2015.1.7
+音量设置
+设置界面
+
+2015.1.8
+自定义对话框
+datepicker、反射机制

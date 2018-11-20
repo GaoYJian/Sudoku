@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sudoku"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/GaoTheme" >
+        <activity
+            android:name="com.example.sudoku.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sudoku.IndroduceActivity"
+            android:label="@string/title_activity_indroduce"
+            android:parentActivityName="com.example.sudoku.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.ChoiceActivity"
+            android:label="@string/title_activity_choice"
+            android:parentActivityName="com.example.sudoku.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.SolveActivity"
+            android:label="@string/title_activity_solve"
+            android:parentActivityName="com.example.sudoku.ChoiceActivity" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.StatisticsActivity"
+            android:label="@string/title_activity_statistics"
+            android:parentActivityName="com.example.sudoku.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.SumActivity"
+            android:label="@string/title_activity_sum" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.EasyActivity"
+            android:label="@string/title_activity_easy" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.NormalActivity"
+            android:label="@string/title_activity_normal" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.HardActivity"
+            android:label="@string/title_activity_hard" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.FuntionTestActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_funtion_test"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.example.sudoku.UpdataInfoActivity"
+            android:label="@string/title_activity_updata_info" >
+        </activity>
+    </application>
+
+</manifest>
