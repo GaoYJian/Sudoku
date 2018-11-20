@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sudoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="Game_Title">Sudoku</string>
+    <string name="Start_Game">开始游戏</string>
+    <string name="Game_Indroduce">游戏介绍</string>
+    <string name="Version">Ver 0.1 By Gao</string>
+    <string name="title_activity_indroduce">游戏介绍</string>
+    <string name="ReturnTitle">返回</string>
+    <string name="title_activity_choice">难度选择</string>
+    <string name="Choice_Title">请选择难度</string>
+    <string name="EasyMode">简单（Easy）</string>
+    <string name="MediumMode">普通（Medium）</string>
+    <string name="HardMode">困难（Hard）</string>
+    <string name="FerverMode">狂热（Ferver）</string>
+    <string name="title_activity_solve">游戏中</string>
+    <string name="Exit">退出游戏</string>
+    <string name="title_activity_statistics">统计信息</string>
+    <string name="title_activity_sum">总体</string>
+    <string name="title_activity_easy">容易</string>
+    <string name="title_activity_normal">中等</string>
+    <string name="title_activity_hard">困难</string>
+
+    <color name="actionbar_text">#BF0000</color>
+
+    <string name="title_activity_funtion_test">FuntionTestActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_updata_info">UpdataInfoActivity</string>
+
+</resources>
